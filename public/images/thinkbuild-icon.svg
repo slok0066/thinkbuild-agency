@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="300" height="300" viewBox="0 0 300 300">
+  <!-- Lightbulb Background Circle -->
+  <circle cx="150" cy="150" r="120" fill="#0a192f" stroke="#0e87d1" stroke-width="6"/>
+  
+  <!-- Lightbulb Shape -->
+  <path d="M150,60 C110,60 80,90 80,140 C80,170 100,190 120,210 L120,240 L180,240 L180,210 C200,190 220,170 220,140 C220,90 190,60 150,60 Z" 
+        fill="#0e87d1" stroke="#0e87d1" stroke-width="2"/>
+  
+  <!-- Circuit Lines -->
+  <path d="M130,120 L110,140 L130,160" fill="none" stroke="#7feaff" stroke-width="4" stroke-linecap="round"/>
+  <path d="M170,120 L190,140 L170,160" fill="none" stroke="#7feaff" stroke-width="4" stroke-linecap="round"/>
+  
+  <!-- Bulb Base -->
+  <rect x="135" y="240" width="30" height="10" fill="#ffc107" rx="2"/>
+</svg> 

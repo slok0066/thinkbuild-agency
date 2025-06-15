@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200">
+  <!-- Background glow effect -->
+  <circle cx="100" cy="100" r="70" fill="url(#outerGlowDark)" opacity="0.25" />
+  
+  <!-- Lightbulb outline -->
+  <path d="M100 10 C60 10 30 40 30 85 C30 115 50 135 60 145 L60 170 L140 170 L140 145 C150 135 170 115 170 85 C170 40 140 10 100 10 Z" 
+        fill="#0099ff" stroke="#00aaff" stroke-width="4" filter="drop-shadow(0 2px 8px rgba(0, 153, 255, 0.5))"/>
+  
+  <!-- Lightbulb base -->
+  <rect x="60" y="170" width="80" height="10" rx="2" fill="#0099ff" stroke="#00aaff" stroke-width="2"/>
+  <rect x="70" y="180" width="60" height="5" rx="2" fill="#ffcc00" stroke="#ffdd33" stroke-width="1" filter="drop-shadow(0 0 3px rgba(255, 204, 0, 0.5))"/>
+  
+  <!-- Circuit lines inside bulb -->
+  <path d="M70 100 L90 80 L110 100 L130 80" fill="none" stroke="#a0e6ff" stroke-width="4" stroke-linecap="round" filter="drop-shadow(0 0 5px rgba(160, 230, 255, 0.7))"/>
+  <path d="M70 120 L90 100 L110 120 L130 100" fill="none" stroke="#a0e6ff" stroke-width="4" stroke-linecap="round" filter="drop-shadow(0 0 5px rgba(160, 230, 255, 0.7))"/>
+  
+  <!-- Connection points with glow -->
+  <circle cx="70" cy="100" r="6" fill="#a0e6ff" filter="drop-shadow(0 0 8px rgba(160, 230, 255, 0.9))"/>
+  <circle cx="130" cy="80" r="6" fill="#a0e6ff" filter="drop-shadow(0 0 8px rgba(160, 230, 255, 0.9))"/>
+  <circle cx="70" cy="120" r="6" fill="#a0e6ff" filter="drop-shadow(0 0 8px rgba(160, 230, 255, 0.9))"/>
+  <circle cx="130" cy="100" r="6" fill="#a0e6ff" filter="drop-shadow(0 0 8px rgba(160, 230, 255, 0.9))"/>
+  
+  <!-- Inner glow -->
+  <circle cx="100" cy="100" r="40" fill="url(#innerGlowDark)" opacity="0.6"/>
+  
+  <!-- Gradient definitions -->
+  <defs>
+    <radialGradient id="innerGlowDark" cx="50%" cy="50%" r="50%" fx="50%" fy="50%">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0.9"/>
+      <stop offset="100%" stop-color="#a0e6ff" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="outerGlowDark" cx="50%" cy="50%" r="70%" fx="50%" fy="50%">
+      <stop offset="0%" stop-color="#0099ff" stop-opacity="0.5"/>
+      <stop offset="100%" stop-color="#0099ff" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+</svg> 
