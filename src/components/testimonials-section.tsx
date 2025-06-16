@@ -1,6 +1,6 @@
 "use client";
 
-import { useState, useEffect, useRef } from "react";
+import { useState, useEffect, useRef, useCallback } from "react";
 
 const testimonials = [
   {
@@ -90,19 +90,19 @@ export function TestimonialsSection() {
   const testimonialRef = useRef<HTMLDivElement>(null);
   const maxIndex = testimonials.length - 1;
 
-  const nextTestimonial = () => {
+  const nextTestimonial = useCallback(() => {
     if (isTransitioning) return;
     setIsTransitioning(true);
     setCurrentIndex((prev) => (prev === maxIndex ? 0 : prev + 1));
     setTimeout(() => setIsTransitioning(false), 500);
-  };
+  }, [isTransitioning, maxIndex]);
 
-  const prevTestimonial = () => {
+  const prevTestimonial = useCallback(() => {
     if (isTransitioning) return;
     setIsTransitioning(true);
     setCurrentIndex((prev) => (prev === 0 ? maxIndex : prev - 1));
     setTimeout(() => setIsTransitioning(false), 500);
-  };
+  }, [isTransitioning]);
 
   useEffect(() => {
     const observer = new IntersectionObserver(
