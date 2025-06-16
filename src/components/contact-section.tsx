@@ -7,8 +7,6 @@ export function ContactSection() {
   const [isSubmitting, setIsSubmitting] = useState(false);
   const [isSubmitted, setIsSubmitted] = useState(false);
   const sectionRef = useRef<HTMLElement>(null);
-  const [selectedGender, setSelectedGender] = useState("male");
-  const [subscribed, setSubscribed] = useState(true);
 
   useEffect(() => {
     const observer = new IntersectionObserver(
@@ -30,14 +28,6 @@ export function ContactSection() {
     };
   }, []);
 
-  const handleGenderChange = (e: React.ChangeEvent<HTMLInputElement>) => {
-    setSelectedGender(e.target.value);
-  };
-
-  const handleSubscribeChange = (e: React.ChangeEvent<HTMLInputElement>) => {
-    setSubscribed(e.target.checked);
-  };
-
   return (
     <section
       id="contact"
@@ -57,7 +47,7 @@ export function ContactSection() {
           <h2 className="text-3xl font-bold mb-4">Get In Touch</h2>
           <div className="h-1 w-20 bg-primary mx-auto mb-6"></div>
           <p className="text-lg text-foreground/80">
-            Ready to start your next project? Contact us today for a free consultation.
+            Don&apos;t see a service that fits your needs? We&apos;ve got you covered. Let&apos;s discuss your project and we&apos;ll create a custom solution tailored just for you.
           </p>
         </div>
 
@@ -170,7 +160,7 @@ export function ContactSection() {
                   </div>
                   <h3 className="text-2xl font-bold mb-3">Message Sent Successfully!</h3>
                   <p className="text-foreground/80 text-lg mb-6">
-                    Thank you for reaching out. We'll get back to you within 24-48 hours.
+                    Thank you for reaching out. We&apos;ll get back to you within 24-48 hours.
                   </p>
                   <button 
                     onClick={() => setIsSubmitted(false)}

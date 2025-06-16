@@ -20,7 +20,7 @@ const testimonials = [
   {
     name: "Vikram Mehta",
     role: "Marketing Director, Pulse Fitness",
-    quote: "The UI/UX design work that ThinkBuild did for our fitness app completely elevated our brand. User engagement increased by 200% and we've received countless compliments on the intuitive interface and beautiful design.",
+    quote: "The UI/UX design work that ThinkBuild did for our fitness app completely elevated our brand. User engagement increased by 200% and we&apos;ve received countless compliments on the intuitive interface and beautiful design.",
     industry: "Health & Fitness",
     rating: 5,
   },
@@ -41,7 +41,7 @@ const testimonials = [
   {
     name: "Ravi Deshmukh",
     role: "Operations Manager, LogiTech Solutions",
-    quote: "Security was our top priority when developing our financial application. ThinkBuild's team implemented robust security measures and created a user-friendly interface that our customers love. Their technical expertise in handling sensitive data was impressive. We've seen a 40% increase in user retention since launch.",
+    quote: "Security was our top priority when developing our financial application. ThinkBuild&apos;s team implemented robust security measures and created a user-friendly interface that our customers love. Their technical expertise in handling sensitive data was impressive. We&apos;ve seen a 40% increase in user retention since launch.",
     industry: "Logistics & Supply Chain",
     rating: 5,
   },

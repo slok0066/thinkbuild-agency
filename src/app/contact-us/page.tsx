@@ -11,7 +11,8 @@ export default function ContactUsPage() {
       <div className="max-w-3xl mx-auto text-center mb-12">
         <h1 className="text-4xl md:text-5xl font-bold mb-6">Contact Us</h1>
         <p className="text-lg text-foreground/70">
-          Have a question or want to work with us? We'd love to hear from you!
+          Have a question or want to work with us? We&apos;d love to hear from you!
+
         </p>
       </div>
       

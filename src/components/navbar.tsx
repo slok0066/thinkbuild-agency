@@ -3,12 +3,10 @@
 import { useState, useEffect } from "react";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
-import Script from "next/script";
 import Image from "next/image";
 
 export function Navbar() {
   const [activeSection, setActiveSection] = useState("home");
-  const [scrolled, setScrolled] = useState(false);
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
   const [showBookingPopup, setShowBookingPopup] = useState(false);
   const [mounted, setMounted] = useState(false);
@@ -19,12 +17,6 @@ export function Navbar() {
   }, []);
 
   const handleScroll = () => {
-    if (window.scrollY > 20) {
-      setScrolled(true);
-    } else {
-      setScrolled(false);
-    }
-
     // Check which section is currently in view
     const sections = document.querySelectorAll("section[id]");
     let current = "";

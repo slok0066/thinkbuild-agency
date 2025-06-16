@@ -11,7 +11,7 @@ export default function TestimonialsPage() {
       <div className="max-w-3xl mx-auto text-center mb-16">
         <h1 className="text-4xl md:text-5xl font-bold mb-6">Client Testimonials</h1>
         <p className="text-lg text-foreground/70">
-          Don't just take our word for it. Here's what our clients have to say about our work.
+          Don&apos;t just take our word for it. Here&apos;s what our clients have to say about our work.
         </p>
       </div>
       
