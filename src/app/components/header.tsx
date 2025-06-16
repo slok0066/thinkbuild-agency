@@ -21,18 +21,9 @@ export function Header() {
     setMounted(true);
   }, []);
 
-  // Handle scroll effect
+  // Keep header always visible with a subtle shadow
   useEffect(() => {
-    const handleScroll = () => {
-      if (window.scrollY > 20) {
-        setScrolled(true);
-      } else {
-        setScrolled(false);
-      }
-    };
-
-    window.addEventListener("scroll", handleScroll);
-    return () => window.removeEventListener("scroll", handleScroll);
+    setScrolled(true);
   }, []);
 
   const navItems = [
@@ -44,7 +35,7 @@ export function Header() {
 
   // Animation variants
   const headerVariants = {
-    initial: { boxShadow: "0 0 0 rgba(0,0,0,0)" },
+    initial: { boxShadow: "0 4px 20px rgba(0,0,0,0.1)" },
     scrolled: { boxShadow: "0 4px 20px rgba(0,0,0,0.1)" }
   };
 
