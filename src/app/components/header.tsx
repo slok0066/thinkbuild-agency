@@ -7,7 +7,6 @@ import { usePathname } from "next/navigation";
 import Image from "next/image";
 import { MobileMenu } from "./mobile-menu";
 import { useState, useEffect } from "react";
-import Script from "next/script";
 
 export function Header() {
   const pathname = usePathname();

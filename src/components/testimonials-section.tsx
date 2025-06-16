@@ -133,7 +133,7 @@ export function TestimonialsSection() {
     }, 8000);
 
     return () => clearInterval(interval);
-  }, [isTransitioning]);
+  }, [isTransitioning, nextTestimonial]);
 
   const renderStars = (rating: number) => {
     return Array.from({ length: 5 }).map((_, i) => (
