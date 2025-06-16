@@ -50,7 +50,7 @@ export default function TestimonialsPage() {
             </div>
           </div>
           <p className="text-foreground/80">
-            "ThinkBuild completely transformed our digital presence. Their team understood our requirements perfectly and delivered a website that exceeded our expectations. Our customer engagement has increased by 60% since the launch!"
+            &quot;ThinkBuild completely transformed our digital presence. Their team understood our requirements perfectly and delivered a website that exceeded our expectations. Our customer engagement has increased by 60% since the launch!&quot;
           </p>
         </div>
 
@@ -88,7 +88,7 @@ export default function TestimonialsPage() {
             </div>
           </div>
           <p className="text-foreground/80">
-            "Working with ThinkBuild was the best decision we made for our marketing campaign. Their team developed a responsive website and integrated advanced analytics that helped us understand our audience better. Our ROI increased by 75% within three months!"
+            &quot;Working with ThinkBuild was the best decision we made for our marketing campaign. Their team developed a responsive website and integrated advanced analytics that helped us understand our audience better. Our ROI increased by 75% within three months!&quot;
           </p>
         </div>
 
@@ -126,7 +126,7 @@ export default function TestimonialsPage() {
             </div>
           </div>
           <p className="text-foreground/80">
-            "As a traditional handicraft business, we needed a website that showcased our products authentically. ThinkBuild created a beautiful e-commerce platform that preserved the essence of our craftsmanship while making it accessible to a global audience. Our international orders have doubled!"
+            &quot;As a traditional handicraft business, we needed a website that showcased our products authentically. ThinkBuild created a beautiful e-commerce platform that preserved the essence of our craftsmanship while making it accessible to a global audience. Our international orders have doubled!&quot;
           </p>
         </div>
 
@@ -164,7 +164,7 @@ export default function TestimonialsPage() {
             </div>
           </div>
           <p className="text-foreground/80">
-            "Security was our top priority when developing our financial application. ThinkBuild's team implemented robust security measures and created a user-friendly interface that our customers love. Their technical expertise in handling sensitive data was impressive. We've seen a 40% increase in user retention since launch."
+            &quot;Security was our top priority when developing our financial application. ThinkBuild's team implemented robust security measures and created a user-friendly interface that our customers love. Their technical expertise in handling sensitive data was impressive. We've seen a 40% increase in user retention since launch.&quot;
           </p>
         </div>
 
@@ -202,7 +202,7 @@ export default function TestimonialsPage() {
             </div>
           </div>
           <p className="text-foreground/80">
-            "ThinkBuild helped us create an interactive learning platform that has revolutionized our teaching methods. The intuitive design and seamless functionality have made online education accessible to students across rural areas. Their team was patient with our requirements and delivered a platform that exceeded our expectations. Student enrollment has increased by 85% since launch!"
+            &quot;ThinkBuild helped us create an interactive learning platform that has revolutionized our teaching methods. The intuitive design and seamless functionality have made online education accessible to students across rural areas. Their team was patient with our requirements and delivered a platform that exceeded our expectations. Student enrollment has increased by 85% since launch!&quot;
           </p>
         </div>
 
@@ -240,7 +240,7 @@ export default function TestimonialsPage() {
             </div>
           </div>
           <p className="text-foreground/80">
-            "Our healthcare application needed to be both user-friendly and compliant with strict medical regulations. ThinkBuild delivered a secure, accessible platform that has helped us connect patients with doctors seamlessly. Their attention to detail in designing the user experience has been praised by both medical professionals and patients alike. Patient satisfaction scores have improved by 65% since implementing the new system."
+            &quot;Our healthcare application needed to be both user-friendly and compliant with strict medical regulations. ThinkBuild delivered a secure, accessible platform that has helped us connect patients with doctors seamlessly. Their attention to detail in designing the user experience has been praised by both medical professionals and patients alike. Patient satisfaction scores have improved by 65% since implementing the new system.&quot;
           </p>
         </div>
       </div>

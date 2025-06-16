@@ -6,88 +6,77 @@ const testimonials = [
   {
     name: "Rajesh Sharma",
     role: "CEO, TechVision",
-    quote:
-      "ThinkBuild transformed our digital presence completely. Their team delivered a website that not only looks stunning but also performs exceptionally well. The increase in user engagement and conversions has been remarkable.",
+    quote: "ThinkBuild transformed our digital presence completely. Their team delivered a website that not only looks stunning but also performs exceptionally well. The increase in user engagement and conversions has been remarkable.",
     industry: "Technology",
     rating: 5,
   },
   {
     name: "Priya Patel",
     role: "Founder, GreenLeaf",
-    quote:
-      "Working with ThinkBuild was a game-changer for our startup. Their mobile app development expertise helped us launch a product that our users love. The attention to detail and commitment to quality is unmatched.",
+    quote: "Working with ThinkBuild was a game-changer for our startup. Their mobile app development expertise helped us launch a product that our users love. The attention to detail and commitment to quality is unmatched.",
     industry: "Eco-Friendly Products",
     rating: 5,
   },
   {
     name: "Vikram Mehta",
     role: "Marketing Director, Pulse Fitness",
-    quote:
-      "The UI/UX design work that ThinkBuild did for our fitness app completely elevated our brand. User engagement increased by 200% and we've received countless compliments on the intuitive interface and beautiful design.",
+    quote: "The UI/UX design work that ThinkBuild did for our fitness app completely elevated our brand. User engagement increased by 200% and we've received countless compliments on the intuitive interface and beautiful design.",
     industry: "Health & Fitness",
     rating: 5,
   },
   {
     name: "Neha Gupta",
     role: "CTO, Finance Plus",
-    quote:
-      "We hired ThinkBuild to rebuild our outdated financial platform, and they delivered beyond our expectations. The custom software solution they developed has streamlined our operations and significantly improved our customer experience.",
+    quote: "We hired ThinkBuild to rebuild our outdated financial platform, and they delivered beyond our expectations. The custom software solution they developed has streamlined our operations and significantly improved our customer experience.",
     industry: "Financial Services",
     rating: 5,
   },
   {
     name: "Aisha Patel",
     role: "Owner, Boutique Collections",
-    quote:
-      "Our e-commerce sales have doubled since launching the new website built by ThinkBuild. The shopping experience is seamless, the design is beautiful, and their ongoing support has been exceptional.",
+    quote: "Our e-commerce sales have doubled since launching the new website built by ThinkBuild. The shopping experience is seamless, the design is beautiful, and their ongoing support has been exceptional.",
     industry: "E-commerce",
     rating: 5,
   },
   {
     name: "Ravi Deshmukh",
     role: "Operations Manager, LogiTech Solutions",
-    quote:
-      "The e-commerce platform ThinkBuild developed for us increased our online sales by 150% in just three months. Their expertise in creating seamless shopping experiences and secure payment integrations was invaluable.",
+    quote: "Security was our top priority when developing our financial application. ThinkBuild's team implemented robust security measures and created a user-friendly interface that our customers love. Their technical expertise in handling sensitive data was impressive. We've seen a 40% increase in user retention since launch.",
     industry: "Logistics & Supply Chain",
     rating: 5,
   },
   {
     name: "Meera Reddy",
     role: "Director, EduSmart Academy",
-    quote:
-      "ThinkBuild's educational platform has revolutionized how we deliver online courses. The intuitive design and robust functionality have made learning more accessible and engaging for our students, resulting in a 40% increase in course completion rates.",
+    quote: "ThinkBuild helped us create an interactive learning platform that has revolutionized our teaching methods. The intuitive design and seamless functionality have made online education accessible to students across rural areas. Their team was patient with our requirements and delivered a platform that exceeded our expectations. Student enrollment has increased by 85% since launch!",
     industry: "Education",
     rating: 5,
   },
   {
     name: "Sunil Choudhary",
     role: "Head of Digital, MediCare Hospital",
-    quote:
-      "Our patient management system developed by ThinkBuild has significantly improved our operational efficiency. The thoughtful design and attention to healthcare-specific needs has made a real difference in how we deliver care.",
+    quote: "Our patient management system developed by ThinkBuild has significantly improved our operational efficiency. The thoughtful design and attention to healthcare-specific needs has made a real difference in how we deliver care.",
     industry: "Healthcare",
     rating: 5,
   },
   {
     name: "Robert Wilson",
     role: "Director, Education First",
-    quote:
-      "ThinkBuild's work on our learning management system has been transformative for our educational institution. Students and faculty alike find the platform intuitive and powerful. Their team was responsive and collaborative throughout the entire process.",
+    quote: "ThinkBuild's work on our learning management system has been transformative for our educational institution. Students and faculty alike find the platform intuitive and powerful. Their team was responsive and collaborative throughout the entire process.",
     industry: "Education",
     rating: 5,
   },
   {
     name: "Jennifer Lee",
     role: "Marketing Manager, Urban Eats",
-    quote:
-      "Our restaurant chain needed a complete digital overhaul, and ThinkBuild delivered exactly what we needed. The online ordering system they built has increased our takeout orders by 45% in just three months. Their team truly understands the restaurant business.",
+    quote: "Our healthcare application needed to be both user-friendly and compliant with strict medical regulations. ThinkBuild delivered a secure, accessible platform that has helped us connect patients with doctors seamlessly. Their attention to detail in designing the user experience has been praised by both medical professionals and patients alike. Patient satisfaction scores have improved by 65% since implementing the new system.",
     industry: "Food & Beverage",
     rating: 5,
   },
   {
     name: "Carlos Mendez",
     role: "Operations Director, MediHealth",
-    quote:
-      "The patient management system ThinkBuild created for our healthcare practice has revolutionized how we operate. The interface is clean, HIPAA-compliant, and has reduced administrative time by 35%. I highly recommend their services to any healthcare provider.",
+    quote: "The patient management system ThinkBuild created for our healthcare practice has revolutionized how we operate. The interface is clean, HIPAA-compliant, and has reduced administrative time by 35%. I highly recommend their services to any healthcare provider.",
     industry: "Healthcare",
     rating: 5,
   },
@@ -237,7 +226,7 @@ export function TestimonialsSection() {
                       <path d="M9.352 4C4.456 7.456 1 13.12 1 19.36c0 5.088 3.072 8.064 6.624 8.064 3.36 0 5.856-2.688 5.856-5.856 0-3.168-2.208-5.472-5.088-5.472-.576 0-1.344.096-1.536.192.48-3.264 3.552-7.104 6.624-9.024L9.352 4zm16.512 0c-4.8 3.456-8.256 9.12-8.256 15.36 0 5.088 3.072 8.064 6.624 8.064 3.264 0 5.856-2.688 5.856-5.856 0-3.168-2.304-5.472-5.184-5.472-.576 0-1.248.096-1.44.192.48-3.264 3.456-7.104 6.528-9.024L25.864 4z" />
                     </svg>
                     <p className="text-xl md:text-2xl font-medium italic mb-6 leading-relaxed">
-                      "{testimonials[currentIndex].quote}"
+                      &quot;{testimonials[currentIndex].quote}&quot;
                     </p>
                     
                     <div className="flex items-center justify-between">
