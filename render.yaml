@@ -3,7 +3,7 @@ services:
     name: thinkbuild-agency
     env: node
     buildCommand: npm install && npm run build
-    staticPublishPath: ./out
+    staticPublishPath: ./build
     envVars:
       - key: NODE_VERSION
         value: 18.x
