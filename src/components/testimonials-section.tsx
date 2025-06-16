@@ -4,7 +4,7 @@ import { useState, useEffect, useRef } from "react";
 
 const testimonials = [
   {
-    name: "Sarah Johnson",
+    name: "Rajesh Sharma",
     role: "CEO, TechVision",
     quote:
       "ThinkBuild transformed our digital presence completely. Their team delivered a website that not only looks stunning but also performs exceptionally well. The increase in user engagement and conversions has been remarkable.",
@@ -12,7 +12,7 @@ const testimonials = [
     rating: 5,
   },
   {
-    name: "Michael Chen",
+    name: "Priya Patel",
     role: "Founder, GreenLeaf",
     quote:
       "Working with ThinkBuild was a game-changer for our startup. Their mobile app development expertise helped us launch a product that our users love. The attention to detail and commitment to quality is unmatched.",
@@ -20,7 +20,7 @@ const testimonials = [
     rating: 5,
   },
   {
-    name: "Emily Rodriguez",
+    name: "Vikram Mehta",
     role: "Marketing Director, Pulse Fitness",
     quote:
       "The UI/UX design work that ThinkBuild did for our fitness app completely elevated our brand. User engagement increased by 200% and we've received countless compliments on the intuitive interface and beautiful design.",
@@ -28,7 +28,7 @@ const testimonials = [
     rating: 5,
   },
   {
-    name: "David Thompson",
+    name: "Neha Gupta",
     role: "CTO, Finance Plus",
     quote:
       "We hired ThinkBuild to rebuild our outdated financial platform, and they delivered beyond our expectations. The custom software solution they developed has streamlined our operations and significantly improved our customer experience.",
@@ -41,6 +41,30 @@ const testimonials = [
     quote:
       "Our e-commerce sales have doubled since launching the new website built by ThinkBuild. The shopping experience is seamless, the design is beautiful, and their ongoing support has been exceptional.",
     industry: "E-commerce",
+    rating: 5,
+  },
+  {
+    name: "Ravi Deshmukh",
+    role: "Operations Manager, LogiTech Solutions",
+    quote:
+      "The e-commerce platform ThinkBuild developed for us increased our online sales by 150% in just three months. Their expertise in creating seamless shopping experiences and secure payment integrations was invaluable.",
+    industry: "Logistics & Supply Chain",
+    rating: 5,
+  },
+  {
+    name: "Meera Reddy",
+    role: "Director, EduSmart Academy",
+    quote:
+      "ThinkBuild's educational platform has revolutionized how we deliver online courses. The intuitive design and robust functionality have made learning more accessible and engaging for our students, resulting in a 40% increase in course completion rates.",
+    industry: "Education",
+    rating: 5,
+  },
+  {
+    name: "Sunil Choudhary",
+    role: "Head of Digital, MediCare Hospital",
+    quote:
+      "Our patient management system developed by ThinkBuild has significantly improved our operational efficiency. The thoughtful design and attention to healthcare-specific needs has made a real difference in how we deliver care.",
+    industry: "Healthcare",
     rating: 5,
   },
   {
