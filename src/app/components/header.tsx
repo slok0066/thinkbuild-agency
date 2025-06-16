@@ -2,6 +2,7 @@
 
 import Link from "next/link";
 import { ThemeToggle } from "./theme-toggle";
+import type { Variants } from "framer-motion";
 import { motion, AnimatePresence } from "framer-motion";
 import { usePathname } from "next/navigation";
 import Image from "next/image";
@@ -57,8 +58,14 @@ export function Header() {
     hover: { y: -2, opacity: 1, transition: { duration: 0.2 } }
   };
 
+  // Header variants for scroll effect
+  const headerSlideVariants: Variants = {
+    initial: { y: -100, opacity: 0 },
+    scrolled: { y: 0, opacity: 1 },
+  };
+
   // Container animation variants
-  const containerVariants = {
+  const containerVariants: Variants = {
     hidden: { opacity: 0 },
     visible: {
       opacity: 1,
@@ -69,12 +76,12 @@ export function Header() {
     }
   };
 
-  const itemVariants = {
+  const itemVariants: Variants = {
     hidden: { y: -10, opacity: 0 },
     visible: { 
       y: 0, 
       opacity: 1,
-      transition: { duration: 0.4, ease: "easeOut" }
+      transition: { duration: 0.4 }
     }
   };
 
@@ -91,11 +98,10 @@ export function Header() {
     <>
       <motion.header 
         className="border-b border-border py-3 sticky top-0 z-40 backdrop-blur-lg bg-background/80 shadow-md transition-all duration-300"
-        variants={headerVariants}
+        variants={{...headerVariants, ...headerSlideVariants}}
+        initial="initial"
         animate={scrolled ? "scrolled" : "initial"}
-        initial={{ y: -100, opacity: 0 }}
-        animate={{ y: 0, opacity: 1 }}
-        transition={{ duration: 0.5, ease: "easeOut" }}
+        transition={{ duration: 0.5 }}
       >
         <div className="container max-w-[500px] mx-auto flex justify-between items-center">
           <Link href="/" className="relative group">
