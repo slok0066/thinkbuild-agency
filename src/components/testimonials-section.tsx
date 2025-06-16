@@ -102,7 +102,7 @@ export function TestimonialsSection() {
     setIsTransitioning(true);
     setCurrentIndex((prev) => (prev === 0 ? maxIndex : prev - 1));
     setTimeout(() => setIsTransitioning(false), 500);
-  }, [isTransitioning]);
+  }, [isTransitioning, maxIndex]);
 
   useEffect(() => {
     const observer = new IntersectionObserver(
