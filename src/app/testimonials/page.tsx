@@ -164,7 +164,7 @@ export default function TestimonialsPage() {
             </div>
           </div>
           <p className="text-foreground/80">
-            &quot;Security was our top priority when developing our financial application. ThinkBuild's team implemented robust security measures and created a user-friendly interface that our customers love. Their technical expertise in handling sensitive data was impressive. We've seen a 40% increase in user retention since launch.&quot;
+            &quot;Security was our top priority when developing our financial application. ThinkBuild&apos;s team implemented robust security measures and created a user-friendly interface that our customers love. Their technical expertise in handling sensitive data was impressive. We&apos;ve seen a 40% increase in user retention since launch.&quot;
           </p>
         </div>
 

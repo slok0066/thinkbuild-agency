@@ -172,7 +172,7 @@ export function TestimonialsSection() {
           <h2 className="text-3xl md:text-5xl font-bold mb-6">What Our Clients Say</h2>
           <div className="h-1 w-20 bg-gradient-to-r from-primary to-accent mx-auto mb-6"></div>
           <p className="text-lg text-foreground/80">
-            Don't just take our word for it. Here's what our clients have to say about working with us.
+            Don&apos;t just take our word for it. Here&apos;s what our clients have to say about working with us.
           </p>
         </div>
 
